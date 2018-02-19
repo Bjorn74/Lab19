@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+.container{
+    display: flex;
+}
+.fixed{
+    width: 60%;
+}
+.flex-item{
+    flex-grow: 1;
+}
+
+ul{
+	list-style-type: none;
+}

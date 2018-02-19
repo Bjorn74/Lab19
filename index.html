@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mocho-Man Can</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<div class="fixed">
+<h1>Items</h1>
+
+<ul>
+<h3>Beans You Can Buy</h3>
+
+<li><button type="button" onclick="addItem('cool');">Add to Cart</button> <b>Cool Beans $3.99/pound</b><p>Beans from the coolest parts of the world.</p></li>
+<li><button type="button" onclick="addItem('hill');">Add to Cart</button> <b>Hill of Beans</b> <b>$4.99/pound</b><p>The biggest hill of beans you've ever seen.</p></li>
+<li><button type="button" onclick="addItem('spill');">Add to Cart</button> <b>Spill the Beans</b> <b>$7.80/pound</b><p>Only beans that have spent some time on our packing floor. These are OBVIOUSLY the very best you can buy.</p></li>
+<li><button type="button" onclick="addItem('fool');">Add to Cart</button> <b>Fool of Beans</b> <b>$88.73/pound</b><p>The biggest, bestest, baddest beans we could scrounge from our gravel parking lot. They weigh more because they're just that awesome.</p></li>
+</ul>
+
+
+
+</div>
+<div class="flex-item">
+<h2>Shopping Cart</h2>
+
+<p id=2>  </p>
+
+
+</div>
+</div>
+
+<div class="container">
+<div class="fixed" align="right">
+<h3>Total</h3>
+</div>
+<div class="flex-item" align="center">
+<p id=1>$0.00</p>
+
+<button type="button" onclick="purchase()">Purchase</button>
+
+
+</div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
